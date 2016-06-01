@@ -1,0 +1,1 @@
+define("widget/getRequest/1.0.0/getRequest",[],function(a,b,c){var d=function(){var a={},b=arguments[0],c=b?b.substring(b.indexOf("?")):document.location.search;if(-1==c.indexOf("?"))return a;c=c.substring(1);for(var d=c.split("&"),e=0,f=d.length;f>e;e++){var g=d[e].split("=");a[g[0]]=g[1]}return a};c.exports=d});
